@@ -25,5 +25,5 @@ Application will be available from [http://localhost:4200/](http://localhost:420
 # Some notes
 App was created by [Angular-cli](https://angular.io/cli) with following command:
   ```
-  ng new andromeda --prefix=pr --style=scss --routing=true
+  ng new andromeda --prefix=an --style=scss --routing=true
   ```
