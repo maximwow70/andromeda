@@ -10,9 +10,9 @@ Install [Angular-cli](https://angular.io/cli) globally using following command:
   npm install -g @angular/cli
   ```
   
-Open repo directory and proceed to **/frontend/post-rock** with following command:
+Open repo directory and proceed to **/frontend/andromeda** with following command:
   ```
-  cd frontend/post-rock
+  cd frontend/andromeda
   ```
   
 Run application with:
@@ -25,5 +25,5 @@ Application will be available from [http://localhost:4200/](http://localhost:420
 # Some notes
 App was created by [Angular-cli](https://angular.io/cli) with following command:
   ```
-  ng new post-rock --prefix=pr --styles=scss --routing=true
+  ng new andromeda --prefix=pr --style=scss --routing=true
   ```
