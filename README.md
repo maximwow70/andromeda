@@ -23,7 +23,13 @@ Run application with:
 Application will be available from [http://localhost:4200/](http://localhost:4200/).
 
 # Some notes
+## Init
 App was created by [Angular-cli](https://angular.io/cli) with following command:
   ```
   ng new andromeda --style=scss --routing=true
   ```
+## Generate components
+  ```
+  ng g component an--${componentName} --selector=an-${componentName}
+  ```
+  And then replace selector with an--${componentName}
