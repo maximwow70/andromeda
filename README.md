@@ -15,6 +15,11 @@ Open repo directory and proceed to **/frontend/andromeda** with following comman
   cd frontend/andromeda
   ```
   
+Install node_modules:
+  ```
+  npm install
+  ```
+  
 Run application with:
   ```
  npm run local-serve
