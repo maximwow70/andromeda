@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AnHomeComponent } from './an--home/an--home.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { AnParallaxComponent } from './_ui/an--parallax/an--parallax.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AnHomeComponent
+    AnHomeComponent,
+    AnParallaxComponent
   ],
   imports: [
     BrowserModule,

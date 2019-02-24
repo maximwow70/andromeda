@@ -1,5 +1,11 @@
+@import "./app/_ui/an--ui.scss";
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+body {
+    font-family: $an--font--regular;
 }

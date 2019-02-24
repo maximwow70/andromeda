@@ -1,0 +1,30 @@
+@import "../_ui/an--ui.scss";
+
+.an--home {
+
+    color: $an--color--pink;
+    font-family: $an--font--regular;
+    text-align: center;
+
+    &--photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    &--navigation {
+        margin-bottom: 50px;
+    }
+    
+    &--navigation-item-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        list-style: none;
+    }
+
+    &--navigation-item {
+        margin: 0 10px 10px 10px;
+    }
+}
