@@ -1,0 +1,16 @@
+@import "../an--src.scss";
+
+.an--parallax {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: $an--color--grey;
+    // background-image: url("../../../assets/background1.jpg");
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Muse",
+        "thumb": "assets/backend/band-list/thumbs/muse-thumb.jpg", 
+        "music": {},
+        "socialLinkList": []
+    },
+    {
+        "id": 2,
+        "name": "God is an astronaut",
+        "thumb": "assets/backend/band-list/thumbs/giaa-thumb.jpg", 
+        "music": {},
+        "socialLinkList": []
+    }
+]
