@@ -16,7 +16,7 @@ import { AnHeaderComponent } from './an--header/an--header.component';
     AppComponent,
     AnHomeComponent,
     AnParallaxComponent,
-    AnBandListComponent
+    AnBandListComponent,
     AnHeaderComponent
   ],
   imports: [
