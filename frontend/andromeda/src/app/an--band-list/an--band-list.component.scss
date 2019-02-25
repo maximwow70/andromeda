@@ -1,0 +1,42 @@
+.an--band-list {
+    padding: 50px;
+
+    &--title {
+        margin-bottom: 20px;
+
+        font-size: 24px;
+    }
+
+    &--list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+
+        list-style: none;
+    }
+
+    &--band {
+        margin-right: 40px;
+
+        width: 250px;
+        border-radius: 10px;
+        background-color: #fff;
+
+        box-shadow: 0 0 25px rgba(#000, 0.3);
+        overflow: hidden;
+    }
+    &--band-thumb {
+        display: block;
+        height: 250px;
+    }
+    &--band-name {
+        padding: 10px 0;
+
+        line-height: 16px;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}

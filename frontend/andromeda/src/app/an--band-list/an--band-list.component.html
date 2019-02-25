@@ -1,0 +1,11 @@
+<div class="an--band-list">
+	<h2 class="an--band-list--title">
+		Best post-rock musicians:
+	</h2>
+	<ul class="an--band-list--list">
+		<li class="an--band-list--band" *ngFor="let band of bandList">
+			<img class="an--band-list--band-thumb" src="{{band.thumb}}" alt="{{band.name}}">
+			<h3 class="an--band-list--band-name">{{band.name}}</h3>
+		</li>
+	</ul>
+</div>
