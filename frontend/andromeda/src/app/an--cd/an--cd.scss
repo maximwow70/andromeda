@@ -1,0 +1,32 @@
+@import "../_ui/an--src.scss";
+
+.an--cd {
+    position: relative;
+
+    display: inline-block;
+
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: $an--color--dark;
+
+    background-color: $an--color--dark;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 0 50px rgba($an--color--dark, 0.5);
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        background-color: $an--color--grey;
+    }
+}

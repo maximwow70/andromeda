@@ -1,0 +1,85 @@
+.an--cd-list {
+    position: relative;
+    display: inline-block;
+
+    text-align: center;
+
+    &--cd {
+        will-change: transform;
+
+        &:nth-child(1),
+        &:nth-child(3) {
+            z-index: 0;
+            position: absolute;
+            top: 50%;
+        }
+        &:nth-child(1) {
+            left: 0;
+            transform: translate(-50%, -50%) scale(0.75);
+
+            animation: an--cd--one 2s linear infinite;
+        }
+        &:nth-child(3) {
+            right: 0;
+            transform: translate(50%, -50%) scale(0.75);
+            
+            animation: an--cd--three 2s linear infinite;
+            animation-delay: 0.25s;
+        }
+
+        &:nth-child(2) {
+            position: relative;
+            z-index: 1;
+            
+            animation: an--cd--two 2s linear infinite;
+        }
+    }
+
+    @keyframes an--cd--one {
+        0% {
+            transform: translate(-50%, -50%) scale(0.75);
+        }
+        25% {
+            transform: translate(-50%, -50.25%) scale(0.75);
+        }
+        50% {
+            transform: translate(-50%, -50%) scale(0.75);
+        }
+        75% {
+            transform: translate(-50%, -49.75%) scale(0.75);
+        }
+        100% {
+            transform: translate(-50%, -50%) scale(0.75);
+        }
+    }
+
+    @keyframes an--cd--two {
+        0% {
+            transform: translate(0%, 0%) scale(1.025);
+        }
+        50% {
+            transform: translate(0%, 0.5%) scale(1.025);
+        }
+        100% {
+            transform: translate(0%, 0%) scale(1.025);
+        }
+    }
+
+    @keyframes an--cd--three {
+        0% {
+            transform: translate(50%, -50%) scale(0.75);
+        }
+        25% {
+            transform: translate(50%, -50.25%) scale(0.75);
+        }
+        50% {
+            transform: translate(50%, -50%) scale(0.75);
+        }
+        75% {
+            transform: translate(50%, -49.75%) scale(0.75);
+        }
+        100% {
+            transform: translate(50%, -50%) scale(0.75);
+        }
+    }
+}
