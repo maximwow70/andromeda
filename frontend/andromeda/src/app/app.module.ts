@@ -10,6 +10,7 @@ import { AnBandListComponent } from './an--band-list/an--band-list.component';
 import { BandService } from './_services/an--band/an--band.service';
 import { HttpClientModule } from '@angular/common/http';
 import { AnHeaderComponent } from './an--header/an--header.component';
+import { AnCdListComponent } from './an--cd-list/an--cd-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AnHeaderComponent } from './an--header/an--header.component';
     AnHomeComponent,
     AnParallaxComponent,
     AnBandListComponent,
-    AnHeaderComponent
+    AnHeaderComponent,
+    AnCdListComponent
   ],
   imports: [
     HttpClientModule,
